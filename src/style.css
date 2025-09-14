@@ -25,6 +25,13 @@ body {
   right: 0;
   transition: all 0.3s ease-in-out;
 }
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
 .nav ul {
   display: flex;
   list-style-type: none;
@@ -56,13 +63,6 @@ body {
   font-weight: bold;
 }
 
-.nav .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  transition: all 0.3s ease-in-out;
-}
 .hero {
   background-image: url("https://images.unsplash.com/photo-1755289445750-71c381bfc8e4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   height: 100vh;
